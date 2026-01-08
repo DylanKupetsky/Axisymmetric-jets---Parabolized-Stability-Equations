@@ -21,7 +21,7 @@ $$q'(r,z,t) = \hat{q}(r)\text{exp}\left(i(\alpha z + \omega t \right)) + c.c. $$
 with $\alpha \in C$ and $\omega \in R$, and $u'$ the radial velocity, $w'$ the axial (so $z$ is the direction of the jet). With $\omega$ an input, the most negative imaginary part of $\alpha$, corresponding to the fastest downstream growth, is chosen as the solution for the problem. Associated eigenfunctions $\hat{q}(r)$ are chosen as initial conditions for the PSE algorithm.
 You can read more about the PSE algorithm [here](https://www.annualreviews.org/content/journals/10.1146/annurev.fluid.29.1.245). The _ansatz_ is then updated to
 
-$$q'(r,z,t) = \hat{q}(r,z)\text{exp}\left(i(\alpha(z) - \omega t \right)$$
+$$q'(r,z,t) = \hat{q}(r,z)\text{exp}\left(i(\alpha(z) - \omega t \right)) + c.c.$$
 
 so that now, z-derivatives of both $\hat{q}$ and $\alpha$ must be included in the numerical procedure.
 
